@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './Header.css'
+import styled from 'styled-components'
 
 
 
@@ -8,8 +8,25 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div>Header</div>
+        <HeaderContainer>
+            <h1>Header</h1>
+        </HeaderContainer>
     )
 }
 
 export default Header
+
+
+
+
+
+
+
+//styled components....
+
+
+const HeaderContainer = styled.div`
+color:'red'
+
+
+`
